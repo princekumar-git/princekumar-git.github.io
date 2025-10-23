@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prince Kumar - Developer Portfolio</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&family=Poppins:wght@600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="portfolio-container">
+        <aside class="sidebar">
+            <button id="theme-toggle" aria-label="Toggle dark/light theme">
+                <span class="material-symbols-outlined">light_mode</span>
+            </button>
+
+            <div class="profile-card">
+                <div class="profile-image-wrapper">
+                    <img src="images/profile.png" alt="Prince Kumar" class="profile-image">
+                </div>
+                <h1 class="profile-name poppins-font">Prince Kumar</h1>
+                <p class="profile-title">Software Developer | Web Enthusiast</p>
+
+                <div class="social-links">
+                    <a href="https://www.linkedin.com/in/princekumar0711/" target="_blank" title="LinkedIn"><i
+                            class="fab fa-linkedin"></i></a>
+                    <a href="https://github.com/princekumar-git" target="_blank" title="GitHub"><i
+                            class="fab fa-github"></i></a>
+                    <a href="https://www.youtube.com/@DECODING_ALGO" target="_blank" title="YouTube"><i
+                            class="fab fa-youtube"></i></a>
+                    <a href="docs/MY RESUME.pdf" target="_blank" title="Resume"><i class="fas fa-file-alt"></i></a>
+                </div>
+            </div>
+
+            <nav class="main-nav">
+                <a href="#about" class="nav-item active" data-section="about">
+                    <span class="material-symbols-outlined">person</span>
+                    <span>About Me</span>
+                </a>
+                <a href="#projects" class="nav-item" data-section="projects">
+                    <span class="material-symbols-outlined">folder</span>
+                    <span>Projects</span>
+                </a>
+                <a href="#skills" class="nav-item" data-section="skills">
+                    <span class="material-symbols-outlined">code</span>
+                    <span>Skills</span>
+                </a>
+                <a href="#contact" class="nav-item" data-section="contact">
+                    <span class="material-symbols-outlined">mail</span>
+                    <span>Contact</span>
+                </a>
+            </nav>
+        </aside>
+
+        <main class="content-area">
+            <section id="about" class="portfolio-section active">
+                <h2 class="section-title poppins-font">About Me</h2>
+                <p>
+                    Hello! I'm Prince Kumar, a passionate software developer with a knack for building dynamic and
+                    responsive web applications.
+                    I thrive on solving complex problems, writing clean code, and constantly exploring new technologies
+                    to hone my craft.
+                </p>
+                <p>
+                    With experience across the full stack—from intuitive front-end interfaces to robust back-end APIs—I
+                    love bringing ideas to life
+                    and creating seamless user experiences. I'm always eager to take on challenging projects and
+                    collaborate with innovative teams.
+                </p>
+                <p>
+                    Outside of coding, you might find me exploring the latest tech trends, enjoying a good book, or
+                    brewing the perfect cup of coffee ☕.
+                </p>
+            </section>
+
+            <section id="projects" class="portfolio-section">
+                <h2 class="section-title poppins-font">My Projects</h2>
+                <div class="project-grid">
+                    <div class="project-item">
+                        <h3 class="poppins-font">Campus Code</h3>
+                        <p>An open-source coding platform that is built for students and college to help them
+                            enhance their coding skills and get better at problem solving.
+                        </p>
+                        <div class="project-tech">HTML, CSS, JavaScript, Docker, Node.js, Django, MySQL</div>
+                        <a href="#" class="project-link" target="_blank"><i class="fas fa-external-link-alt"></i> View
+                            Project</a>
+                    </div>
+                    <div class="project-item">
+                        <h3 class="poppins-font">Online Board Games</h3>
+                        <p>A platform for playing and managing online board games with friends.
+                        </p>
+                        <div class="project-tech">React, Node.js, Express, MongoDB</div>
+                        <a href="#" class="project-link" target="_blank"><i class="fas fa-external-link-alt"></i> View
+                            Project</a>
+                    </div>
+                    <div class="project-item">
+                        <h3 class="poppins-font">Browser Tools Extension</h3>
+                        <p>A browser extension that provides various tools like clock, notes, and to-do lists, etc
+                            within the browser.</p>
+                        <div class="project-tech">HTML, CSS, JavaScript, API Integration</div>
+                        <a href="#" class="project-link" target="_blank"><i class="fas fa-external-link-alt"></i> View
+                            Project</a>
+                    </div>
+                    <div class="project-item">
+                        <h3 class="poppins-font">Android Home-Launcher</h3>
+                        <p>An Android application that serves as a customizable home screen launcher, providing quick
+                            access to apps, widgets, and personalized settings.</p>
+                        <div class="project-tech">Java, Android SDK, XML</div>
+                        <a href="#" class="project-link" target="_blank"><i class="fas fa-external-link-alt"></i> View
+                            Project</a>
+                    </div>
+                </div>
+            </section>
+
+            <section id="skills" class="portfolio-section">
+                <h2 class="section-title poppins-font">Skills & Expertise</h2>
+
+                <div class="skills-grid">
+                    <!-- Web Development -->
+                    <div class="skill-category">
+                        <h3 class="poppins-font">Web Development</h3>
+                        <ul>
+                            <li>HTML5, CSS3 (Sass/SCSS)</li>
+                            <li>JavaScript (ES6+), TypeScript</li>
+                            <li>React.js, Next.js, Vue.js</li>
+                            <li>Node.js, Express.js</li>
+                            <li>Django, Flask</li>
+                            <li>RESTful APIs, JSON, Fetch/Axios</li>
+                        </ul>
+                    </div>
+
+                    <!-- Android Development -->
+                    <div class="skill-category">
+                        <h3 class="poppins-font">Android Development</h3>
+                        <ul>
+                            <li>Java, Kotlin</li>
+                            <li>XML UI Design</li>
+                            <li>Android Studio, Gradle</li>
+                            <li>Retrofit, Room Database</li>
+                            <li>Firebase Authentication & Firestore</li>
+                            <li>Material Design Components</li>
+                        </ul>
+                    </div>
+
+                    <!-- Tools & Platforms -->
+                    <div class="skill-category">
+                        <h3 class="poppins-font">Tools & Platforms</h3>
+                        <ul>
+                            <li>Git, GitHub</li>
+                            <li>Postman, Figma</li>
+                            <li>Docker, VS Code</li>
+                            <li>Linux, Command Line</li>
+                            <li>Firebase, Netlify, Vercel</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="tech-icons">
+                    <i class="fa-brands fa-html5"></i>
+                    <i class="fa-brands fa-css3-alt"></i>
+                    <i class="fa-brands fa-js"></i>
+                    <i class="fa-brands fa-react"></i>
+                    <i class="fa-brands fa-node-js"></i>
+                    <i class="fa-brands fa-android"></i>
+                    <i class="fa-brands fa-java"></i>
+                    <i class="fa-brands fa-python"></i>
+                    <i class="fa-brands fa-docker"></i>
+                    <i class="fa-brands fa-git-alt"></i>
+                </div>
+            </section>
+
+
+            <section id="contact" class="portfolio-section">
+                <form class="contact-form" action="https://formspree.io/f/xpwydbey" method="POST">
+
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="_replyto" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="submit-button">Send Message</button>
+                </form>
+            </section>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
